@@ -1,0 +1,145 @@
+/*Universal*/
+
+body {
+  position: relative;
+  top: -10px;
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  opacity:
+}
+
+a {
+  color: seashell;
+}
+
+/*Header*/
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  color: seashell;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  float: right;
+  margin: 20px 10px;
+}
+
+nav span {
+  padding: 10px
+}
+
+.logo img {
+  float: left;
+  height: 50px;
+  margin: 10px;
+}
+
+/*Mission*/
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-text {
+  background-color: black;
+  position: absolute;
+  top: 350px;
+  width: 1200px;
+}
+
+/*Tea of the Month*/
+
+.tea-of-month-container {
+  display: inline-block;
+  justify-content: center;
+  width: 1000px;
+}
+
+h2, h4, {
+  display: block;
+}
+
+.tea-of-month-sections {
+  position: relative;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-of-month-image {
+  margin: 10px;
+}
+
+.tea-of-month-image img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-of-month-image span {
+  display: block;
+  margin: 5px;
+}
+
+/*Locations*/
+
+.locations-container {
+  display: inline-block;
+  justify-content: center;
+  width: 1200px;
+}
+
+.locations-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 1200px;
+  height: 500px;
+}
+
+.location-title h2 {
+  width: 1200px;
+  position: relative;
+  top: 50px;
+}
+
+.locations-text {
+  background-color: black;
+  opacity: 1;
+  height: 250px;
+  width: 300px;
+  margin: 20px;
+}
+
+/*Footer*/
+
+.footer {
+  height: 200px;
+}
+
+#copyright {
+  float: left;
+  margin-left: 20px;
+}
